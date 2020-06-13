@@ -12,10 +12,10 @@ const styles = theme => ({
     fontFamily: theme.typography.fontFamily,
     fontSize: '1rem',
     fontWeight: 800,
-    padding: '14px 21px',
+    padding: '14px 28px',
     textTransform: 'uppercase',
     '&:hover': {
-      backgroundColor: theme.palette.primary.light,
+      backgroundColor: theme.palette.primary.dark,
       cursor: 'pointer',
     },
   },

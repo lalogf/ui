@@ -14,13 +14,13 @@ storiesOf('Typography', module)
       Primary
     </Link>
   ))
-  .add('Links magenta', () => (
-    <Link href="#links" variant="magenta">
+  .add('Links secondary', () => (
+    <Link href="#links" variant="secondary">
       Magenta
     </Link>
   ))
-  .add('Links mint', () => (
-    <Link href="#links" variant="mint">
+  .add('Links tertiary', () => (
+    <Link href="#links" variant="tertiary">
       Mint
     </Link>
   ));

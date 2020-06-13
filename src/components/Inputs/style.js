@@ -11,5 +11,5 @@ export default {
     padding: 17,
     color: '#979797',
     fontSize: 20,
-  },
+  }
 };

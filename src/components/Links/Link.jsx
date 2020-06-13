@@ -7,7 +7,7 @@ const styles = theme => ({
   root: {
     fontFamily: 'Open Sans',
     fontSize: '1rem',
-    fontWeight: 300,
+    fontWeight: 600,
     textDecoration: 'inherit',
   },
   default: {
@@ -24,18 +24,18 @@ const styles = theme => ({
       color: theme.palette.primary.light,
     },
   },
-  magenta: {
-    borderBottom: `solid 1px ${theme.palette.magenta.main}`,
-    color: theme.palette.magenta.main,
+  secondary: {
+    borderBottom: `solid 1px ${theme.palette.secondary.main}`,
+    color: theme.palette.secondary.main,
     '&:hover': {
-      color: theme.palette.magenta.light,
+      color: theme.palette.secondary.light,
     },
   },
-  mint: {
-    borderBottom: `solid 1px ${theme.palette.mint.main}`,
-    color: theme.palette.mint.main,
+  tertiary: {
+    borderBottom: `solid 1px ${theme.palette.tertiary.main}`,
+    color: theme.palette.tertiary.main,
     '&:hover': {
-      color: theme.palette.mint.light,
+      color: theme.palette.tertiary.light,
     },
   },
 });
@@ -60,10 +60,10 @@ function Link(props) {
           [classes.primary]: variant === 'primary',
         },
         {
-          [classes.magenta]: variant === 'magenta',
+          [classes.secondary]: variant === 'secondary',
         },
         {
-          [classes.mint]: variant === 'mint',
+          [classes.tertiary]: variant === 'tertiary',
         },
         className,
       )}
@@ -83,7 +83,7 @@ Link.propTypes = {
   children: PropTypes.node.isRequired,
   classes: PropTypes.shape().isRequired,
   className: PropTypes.string,
-  variant: PropTypes.oneOf(['default', 'primary', 'magenta', 'mint']),
+  variant: PropTypes.oneOf(['default', 'primary', 'secondary', 'tertiary']),
 };
 
 export default withStyles(styles)(Link);

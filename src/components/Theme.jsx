@@ -31,19 +31,39 @@ const theme = createMuiTheme({
   },
   palette: {
     primary: {
-      light: '#ffea4d',
+      light: '#FEF278',
       main: '#ffe521',
-      dark: '#b2a017',
+      dark: '#DAC218',
     },
-    magenta: {
-      light: '#ff33b1',
+    secondary: {
+      light: '#FF66A6',
       main: '#ff009e',
-      dark: '#b2006e',
+      dark: '#DB009D',
     },
-    mint: {
-      light: '#77f9ae',
+    tertiary: {
+      light: '#9AFCAF',
       main: '#56f89a',
-      dark: '#3cad6b',
+      dark: '#3ED58C',
+    },
+    danger: {
+      light: '#F98A7D',
+      main: '#ED2939',
+      dark: '#CB1D3B',
+    },
+    info: {
+      light: '#9BFEFB',
+      main: '#06C9F9',
+      dark: '#059DD6',
+    },
+    success: {
+      light: '#A5E591',
+      main: '#4AAA42',
+      dark: '#309230',
+    },
+    warning: {
+      light: '#FDE484',
+      main: '#FAC733',
+      dark: '#D7A425',
     },
   },
   typography: {
@@ -51,7 +71,7 @@ const theme = createMuiTheme({
     fontFamily: 'Open Sans, Arial, sans-serif',
     fontWeightMedium: 600,
     h1: {
-      color: '#000',
+      color: '#202020',
       fontFamily: 'Bitter,serif',
       fontSize: '3.125rem',
       fontWeight: 700,
@@ -59,7 +79,7 @@ const theme = createMuiTheme({
       lineHeight: 'normal',
     },
     h2: {
-      color: '#000',
+      color: '#202020',
       fontFamily: 'Bitter,serif',
       fontSize: '2.25rem',
       fontWeight: 700,
@@ -67,7 +87,7 @@ const theme = createMuiTheme({
       lineHeight: 'normal',
     },
     h3: {
-      color: '#000',
+      color: '#202020',
       fontFamily: 'Bitter,serif',
       fontSize: '1.75rem',
       fontWeight: 700,
@@ -75,7 +95,7 @@ const theme = createMuiTheme({
       lineHeight: 'normal',
     },
     h4: {
-      color: '#000',
+      color: '#202020',
       fontFamily: 'Bitter,serif',
       fontSize: '1.5rem',
       fontWeight: 700,
@@ -83,7 +103,7 @@ const theme = createMuiTheme({
       lineHeight: 'normal',
     },
     h5: {
-      color: '#000',
+      color: '#202020',
       fontFamily: 'Bitter,serif',
       fontSize: '1.25rem',
       fontWeight: 700,
@@ -91,7 +111,7 @@ const theme = createMuiTheme({
       lineHeight: 'normal',
     },
     h6: {
-      color: '#000',
+      color: '#202020',
       fontFamily: 'Bitter,serif',
       fontSize: '1rem',
       fontWeight: 700,
@@ -99,14 +119,14 @@ const theme = createMuiTheme({
       lineHeight: 'normal',
     },
     body1: {
-      color: '#000',
+      color: '#202020',
       fontSize: '1rem',
       fontWeight: 300,
       letterSpacing: 'normal',
       lineHeight: '1.35em',
     },
     body2: {
-      color: '#000',
+      color: '#202020',
       fontSize: '1.25rem',
       fontWeight: 300,
       letterSpacing: 'normal',
